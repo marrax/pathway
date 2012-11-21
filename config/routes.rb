@@ -1,17 +1,23 @@
 Pathway::Application.routes.draw do
-  get "pages/home"
 
-  get "news/articles"
+  root to: 'pages#home'
 
-  get "events/whatson"
+  match '/news', to:  'news#articles'
 
-  get "pages/rooms"
+  match '/events', to:  'events#whatson'
 
-  get "pages/booking"
+  match '/guestbook', to:  'comments#guestbook'
 
-  get "pages/breakfast"
+  match '/rooms', to:  'pages#rooms'
 
-  get "pages/directions"
+  match '/booking', to:  'pages#booking'
+
+  match '/breakfast', to:  'pages#breakfast'
+
+  match '/directions', to:  'pages#directions'
+  match '/terms', to:  'pages#terms'
+  match '/sitemap', to:  'pages#sitemap'
+
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

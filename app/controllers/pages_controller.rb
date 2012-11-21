@@ -13,4 +13,15 @@ class PagesController < ApplicationController
 
   def home
   end
+
+  def sitemap 
+  end
+
+  def terms 
+  end
+
+  def home
+  end
+
+
 end
