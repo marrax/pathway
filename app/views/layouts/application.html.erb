@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" class="csstransforms no-csstransforms3d csstransitions">
   <head>
     <title><%= full_title(yield(:title)) %></title>
     <%= stylesheet_link_tag    "application", media: "all" %>
     <%= javascript_include_tag "application" %>
     <%= csrf_meta_tags %>
+    <%= render 'layouts/viewport' %>
     <%= render 'layouts/shim' %>
   </head>
   <body>
@@ -15,5 +16,5 @@
            <%= yield %>
         </div>
     </div>
-  </body>
+  <body
 </html>
