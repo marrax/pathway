@@ -2,6 +2,8 @@ Pathway::Application.routes.draw do
 
   root to: 'pages#home'
 
+  match '/home', to:  'pages#home'
+
   match '/news', to:  'news#articles'
 
   match '/events', to:  'events#whatson'
