@@ -23,8 +23,9 @@
 <link rel="apple-touch-icon-precomposed" href="assets/apple-touch-icon-57-precomposed.png">
 </head>
 <body>
-
+<%= render 'layouts/header' %>
 <%= yield %>
+<%= render 'layouts/footer' %>
 <!-- Javascript at end to speed up -->
   <%= javascript_include_tag "application" %>
 </body>
