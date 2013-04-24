@@ -1631,7 +1631,7 @@ h4 {
 	height:20px;
 	width:100%;
 	border:0;
-	background:url(../img/separator.png) repeat-x;
+	background:url(/assets/separator.png) repeat-x;
 }
 .portof {
 	width:31.6239%;
