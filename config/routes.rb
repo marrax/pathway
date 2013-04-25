@@ -4,6 +4,9 @@ Pathway::Application.routes.draw do
 
   match '/home', to:  'pages#home'
 
+  match '/homenew' =>  'pages#new', :as => 'pages', :via => :get
+  match '/homecreate' =>  'pages#create', :as => 'pages', :via => :post
+
   match '/news', to:  'news#articles'
 
   match '/events', to:  'events#whatson'
