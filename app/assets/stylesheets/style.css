@@ -1459,7 +1459,7 @@ table .span24 {
 }
 /* Custom Content*/
 h1 {
-	color:#CE5010;
+	color:#8b0000;
 	font-family:'LeagueGothicRegular';
 	font-size:35px;
 	line-height:1;
@@ -1557,7 +1557,7 @@ h4 {
 .hero-unittext h1 {
 	font-family:LeagueGothicRegular;
 	font-size:50px;
-	color:#CE5010;
+	color:#8b0000;
 	border:0px;
 	margin-top:20px;
 	margin-bottom:20px;
@@ -1617,7 +1617,7 @@ h4 {
 	margin-right:10px;
 }
 .servicetitle {
-	background:#ce5010;
+	background:#8b0000;
 	color:#fff;
 	padding:0px 10px;
 	font-size:25px;
@@ -1631,7 +1631,7 @@ h4 {
 	height:20px;
 	width:100%;
 	border:0;
-	background:url(/assets/separator.png) repeat-x;
+	background:url(../img/separator.png) repeat-x;
 }
 .portof {
 	width:31.6239%;
@@ -1658,7 +1658,7 @@ h4 {
 	background:#111
 }
 .highlighthero {
-	background:#ce5010;
+	background:#8b0000;
 	color:#fff;
 	padding:0px 10px;
 	font-size:40px;
@@ -1873,9 +1873,9 @@ h4 {
 	z-index:-1;
 }
 .t5 {
-	background:#333;
+	background:#8b0000;
 	border-radius:5px 5px 5px 5px;
-	color:#efefef;
+	color:#ffff99
 }
 .t5:before {
 	-moz-transform:skewX(45deg);

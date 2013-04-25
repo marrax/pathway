@@ -1459,7 +1459,7 @@ table .span24 {
 }
 /* Custom Content*/
 h1 {
-	color:#5f0909;
+	color:#CE5010;
 	font-family:'LeagueGothicRegular';
 	font-size:35px;
 	line-height:1;
@@ -1631,7 +1631,7 @@ h4 {
 	height:20px;
 	width:100%;
 	border:0;
-	background:url(../img/separator.png) repeat-x;
+	background:url(/assets/separator.png) repeat-x;
 }
 .portof {
 	width:31.6239%;
@@ -2373,5 +2373,3 @@ svg image {
 svg image:hover {
 	opacity: 0;
 }
-@import "bootstrap";
-@import "bootstrap-responsive";
