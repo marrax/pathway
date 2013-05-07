@@ -1,46 +1,54 @@
- <!-- ABOUT SECTION
-            ================================================== -->
-                        <section id="about">
-                        <div class="hero-unittext">
-                                <h1>- Welcome to the PathWay Guest House -</h1>
-                                <h2> Please find here all the information on our Superb Bed and Breakfast. <span class="highlighthero">Visit Whitby and Stay Here.</span></h2>
-                        </div>
+<!-- CONTACT
+                        ================================================== -->
+                        <section id="contact">
+                        <div class="separator"></div><br/>
                         <div class="row-fluid">
-                                <div class="span8">
-                                        <h1>ABOUT THE PATHWAY</h1>
-                                        <p>
-The Pathway Guest House is ideally situated on the west cliff side of town being only 5 minutes walk away from the town centre, cliff tops and beach.
-
-You will receive a warm welcome from myself, Gillian and husband Phil, whom, having both being born and brought up in Whitby, are keen to extol all that Whitby and the surrounding countryside has to offer.
-
-                                        </p>
-                                        <p>
-We offer 5 double en-suite rooms, all newly refurbished, well maintained with cleanliness being paramount, plus all the usual extras you would expect and more
-                                        </p>
-                                </div>
-                                <div class="span4">
-                                        <div class="tdiv t5">
-						<p>
-                                                 OUT OF SEASON MID WEEK DEALS
-						</p>
-
-						Sunday to Thursday, stay 3 nights for the price of 2
-						Long Weekend Break
-						<p>
-						3 nights double room £140
-						</p>
-						<p>
-						3 nights four poster £170
-						</p>
-						<br/><br/>
+                                <div class="span12 addspace">
+                                        <h1>GET IN TOUCH</h1>
+					<div class="tdiv t5">
                                                 <p>
-							*Does not include half terms and bank holidays and local events
+                                                 Please call us on 01947 601779
+                                                </p>
+                                                <p>
+                                        	<h5>Or try Phil on his mobile 07769226746</h5>
                                                 </p>
                                         </div>
+
                                 </div>
                         </div>
-                        <br/>
-                        </section>
-                        <div class="pagebreak">
-                        </div> 
+
+<% flash.each do |name, message| %>
+                      <div class="alert alert-<%= name == :notice ? "success" : "error" %>">
+                      <a class="close" data-dismiss="alert">x</a>
+                        <%= message  %>
+                      </div>
+                   <% end %>
+
+                        <div class="row-fluid" style="min-height:520px;">
+                                <div class="span7">
+                                         <div class="done">
+                                                <div class="alert alert-success">
+                                                        <button type="button" class="close" data-dismiss="alert">x</button>
+                                                        <strong>Message sent successfully!</strong><br/>
+                                                </div>
+                                        </div>
+
+                                <fieldset>
+                          <%= simple_form_for Message.new,  :url => { :action => "create" }, :html => {:class => "nifty_form"}  do |form| %>
+                          <%= form.input :name, :label => 'First Name: ', :placeholder => 'Your first name.', :input_html => {:class => "span7"}  %>
+                          <%= form.input :email, :label => 'Email address: ', :placeholder => 'your email address.', :input_html => {:class => "span7"} %>
+                          <%= form.input :body , :label => 'Enquiry: ', :as => :text, :placeholder => 'What you would like to contact us about.', :input_html => {:cols => 50, :rows =>5, :class => 'input-xlarge-focused span7 '} %>
+                          </br>
+                          <%= form.button :submit, :label => 'Send Enquiry',  :class =>  "btn btn-primary pull-right"  %>
+                          <% end %>
+			<div id="page">
+                        </fieldset>
+
+                                </div>
+
+                                <div class="span5">
+<iframe width="410" height="377" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=pathway+guesthouse&amp;sll=54.488725,-0.616897&amp;sspn=0.004101,0.009538&amp;ie=UTF8&amp;t=h&amp;cid=2122958004452562429&amp;ll=54.491355,-0.616393&amp;spn=0.011217,0.021458&amp;z=15&amp;output=embed"></iframe>
+                                </div>
+                        </div>
+                </section>
 
