@@ -1080,7 +1080,7 @@
 
 @media (min-width: 320px) and (max-width: 470px) {
 .input-xxlarge {width:150%;}
-.highlighthero {background:none;color:#ce5010;font-size:50px;display:block;}
+.highlighthero {background:none;color:#8b0000;font-size:50px;display:block;}
 .logo, .logo a {padding-top:6px;padding-bottom:5px;}
 .portof {margin-bottom:10px;} 
 .row-fluid{width:99%;margin-left:-1%;}
@@ -1089,7 +1089,7 @@
 
 @media (min-width: 176px) and (max-width: 319px) {
 .input-xxlarge {width:100%;}
-.highlighthero {background:none;color:#ce5010;font-size:50px;display:block;}
+.highlighthero {background:none;color:#8b0000;font-size:50px;display:block;}
 .sidebar-nav-fixed {overflow: hidden; width: 80%;}
 .logo, .logo a {font-size: 30px; padding-bottom: 5px;  padding-top: 6px;margin-left:0px;}
 .portof {margin-bottom:10px;} 

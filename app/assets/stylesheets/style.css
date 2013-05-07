@@ -1478,7 +1478,7 @@ h4 {
 }
 .well {
 	height:100%;
-	background:#222 url("side.png");
+	background:#8b0000 url("side.png");
 	color:#fff;
 	border-right:6px solid #444;
 	padding:19px;
@@ -1509,10 +1509,10 @@ h4 {
 	width:150px;
 }
 .well a:hover {
-	color:#e87317;
+	color:#ffff99;
 }
 .well a:active {
-	color:#e87317;
+	color:#ffff99;
 }
 .well blockquote {
 	border-color:#ddd;
@@ -1606,8 +1606,8 @@ h4 {
 	color:#ccc;
 }
 .status {
-	background:#ce5010;
-	border:3px dashed #ce5010;
+	background:#8b0000;
+	border:3px dashed #8b0000;
 	padding:25px 30px 18px;
 	margin-top:80px;
 	color:#fff;
@@ -1648,7 +1648,7 @@ h4 {
 	padding:10px 10px 0px;
 }
 .submitbutton {
-	background:#ce5010;
+	background:#8b0000;
 	color:#fff;
 	padding:7px 20px;
 	line-height:3;
@@ -1678,7 +1678,7 @@ h4 {
 	color:#555;
 }
 .minibutton {
-	background:#ce5010;
+	background:#8b0000;
 	border-radius:0.2em 0.2em 0.2em 0.2em;
 	color:#FFFFFF;
 	opacity:1;
@@ -1698,7 +1698,7 @@ h4 {
 	font-size:25px;
 }
 .colornow {
-	color: #ce5010;
+	color: #8b0000;
 }
 /*Contact*/
 .done {
