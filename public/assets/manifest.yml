@@ -91,6 +91,8 @@ ostrich-rounded-webfont.woff: ostrich-rounded-webfont-b4688e5373c6c48f4d7f08a821
 ostrich-rounded-webfont/index.woff: ostrich-rounded-webfont-b4688e5373c6c48f4d7f08a8218e6ec1.woff
 1.jpg: 1-d10d4586b3a818ce87f4e8e9f1c697f3.jpg
 1/index.jpg: 1-d10d4586b3a818ce87f4e8e9f1c697f3.jpg
+TripAd.jpeg: TripAd-07859979f64c198113d27ff60b0e1880.jpeg
+TripAd/index.jpeg: TripAd-07859979f64c198113d27ff60b0e1880.jpeg
 ajax-loader.gif: ajax-loader-3606efb6267dc132e2b33f33f6a62fe8.gif
 ajax-loader/index.gif: ajax-loader-3606efb6267dc132e2b33f33f6a62fe8.gif
 apple-touch-icon-114-precomposed.png: apple-touch-icon-114-precomposed-d6bdfd3e180ff53630377e86a031ef04.png
@@ -153,11 +155,15 @@ slide5.jpg: slide5-ef95f86d27befd50632e83ff6272af48.jpg
 slide5/index.jpg: slide5-ef95f86d27befd50632e83ff6272af48.jpg
 slide6.jpg: slide6-10cccc9200540dbd946a6a71f3015e9e.jpg
 slide6/index.jpg: slide6-10cccc9200540dbd946a6a71f3015e9e.jpg
+tripad.jpg: tripad-8f8024cd230442c94832fc9808f29e57.jpg
+tripad/index.jpg: tripad-8f8024cd230442c94832fc9808f29e57.jpg
+tripad.png: tripad-e3b9a1d16980938ff0b0ddf58d642e24.png
+tripad/index.png: tripad-e3b9a1d16980938ff0b0ddf58d642e24.png
 twitter.png: twitter-01c75aaef64965658797f69bcf6a0f2b.png
 twitter/index.png: twitter-01c75aaef64965658797f69bcf6a0f2b.png
 application.js: application-40e2e2b42a4e80607984d6019aebb4c1.js
 application/index.js: application-40e2e2b42a4e80607984d6019aebb4c1.js
-application.css: application-9be59ed0fe78ae2e56bcdb40d8f45964.css
-application/index.css: application-9be59ed0fe78ae2e56bcdb40d8f45964.css
+application.css: application-0e77e83b4e97e12451b7857edf601f86.css
+application/index.css: application-0e77e83b4e97e12451b7857edf601f86.css
 jquery.min.map: jquery.min-959a5819c76e1508f5a8655c289c0de8.map
 jquery/index.min.map: jquery.min-959a5819c76e1508f5a8655c289c0de8.map
