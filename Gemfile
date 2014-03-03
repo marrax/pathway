@@ -8,12 +8,12 @@ gem 'minitest'
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
 
+gem 'pg'
 group :development, :test do
-  gem 'sqlite3'
+#  gem 'sqlite3'
 end
 
 group :production do
- gem 'pg'
 end
 
 
@@ -31,7 +31,7 @@ gem 'jquery-rails'
 gem 'unicorn'
 
 # Deploy with Capistrano
-gem 'capistrano'
+gem 'capistrano', '2.15'
 
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
