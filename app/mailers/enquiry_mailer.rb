@@ -1,6 +1,6 @@
 class EnquiryMailer < ActionMailer::Base
-  default :from => "root@localdomain.dev"
-  default :to => "marrax@gmail.com"
+  default :from => "webform@thepathwayguesthouse.co.uk"
+  default :to => "info@thepathwayguesthouse.co.uk"
 
   def new_message(message)
     @message = message
